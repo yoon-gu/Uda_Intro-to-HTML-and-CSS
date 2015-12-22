@@ -2,8 +2,7 @@
 여기서 말하는 box size는 margin을 포함하지 않는다. 
 box-sizing : 전체너비를 정하면 패딩,보더 사이즈를 조정하더라도
 박스의 사이즈는 항상 변하지 않는다.
-
-   */
+*/
 .app {
     display: flex;
 }
