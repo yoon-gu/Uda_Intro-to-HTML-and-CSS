@@ -6,6 +6,9 @@
 	인터넷에서 검색하면 normalize.css 파일을 얻을 수 있는데 
 	그걸 사용하면 된다. 
 */
+*{
+    font-family: 'Lato', sans-serif;
+}
 
 * {
     border: 1px solid red !important;
