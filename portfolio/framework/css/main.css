@@ -1,3 +1,12 @@
+/* 
+강의내용: 
+	CSS Resetting ( CSS Normalize )
+	: 모든 웹브라우저에서 내가 만든 웹페이지를 아무런 문제 없이
+	볼수있도록 해주는 것이다. 
+	인터넷에서 검색하면 normalize.css 파일을 얻을 수 있는데 
+	그걸 사용하면 된다. 
+*/
+
 * {
     border: 1px solid red !important;
 }
