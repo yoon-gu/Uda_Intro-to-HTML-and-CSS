@@ -35,9 +35,18 @@
 
 h1{
     font-size:70px;
-    
+    color:#BCBBBB;
 }
 
+h2{
+    font-size:30px;
+    color:#BCBBBB;
+
+}
+h4{
+    font-size:30px;
+    color:#747704;
+}
 .grid {
     margin: 0 auto;
     max-width: 1200px;
