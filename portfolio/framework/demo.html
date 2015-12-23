@@ -13,12 +13,27 @@
 
 	or  google.com/font에서 폰트 고른다음에 integrate 에 있는 코드 복사해서 css파일에서 사용하기 예시) *{ 구글에서 복사한 코드 }
 -->
+
+<!-- 
+.min.css 파일은 .css 파읠의 내용과 같지만 다운로드를 더 빠르게 하기위해서 작게 만든것이다. 코드를 수정할땐 .css를 사용하고 html에서 링크 하려면 .min.css를 사용 한다. 
+
+Instructor Notes
+NOTE: CSS minification does not happen automatically by default, therefore if you edit your unminified CSS file, but include the minified version in your HTML, the page will not use the updated CSS by default.
+
+You can manually minify your CSS using a site like http://cssminifier.com/.
+-->
+
 <!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>This is my test version.</title>
-		<link rel="stylesheet" href="css/hmkcss.css">
+		<!-- <link rel="stylesheet" href="css/hmkcss.css"> -->
+
+		<link rel="stylesheet" href="css/bootstrap.min.css"><!--to use bootstrap files --> 
+		<script src="js/bootstrap.min.js"></script>
+
+
 	</head>
 	<body>
 		<div class="grid">
